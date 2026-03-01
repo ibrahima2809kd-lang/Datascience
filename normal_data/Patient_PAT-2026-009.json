@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-01T00:18:55.677600+00:00",
+    "resource_type": "Observation"
+  },
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/PAT-2026-009",
+      "display": "Th\u00e9odore Pichon"
+    },
+    "effectiveDateTime": "2026-03-01T00:18:55.677600+00:00",
+    "component": [
+      {
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 133
+        }
+      },
+      {
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 89
+        }
+      }
+    ]
+  },
+  "anomaly_status": "NORMAL"
+}

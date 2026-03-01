@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-01T00:19:40.990930+00:00",
+    "resource_type": "Observation"
+  },
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/PAT-2026-005",
+      "display": "Yves Maillard-Gu\u00e9rin"
+    },
+    "effectiveDateTime": "2026-03-01T00:19:40.990930+00:00",
+    "component": [
+      {
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 101
+        }
+      },
+      {
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 79
+        }
+      }
+    ]
+  },
+  "anomaly_status": "NORMAL"
+}
